@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+}
+.logoSection {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.flipkart-logo {
+    width: 120px;
+    margin-top: 10px;
+}
+.search{
+    background-color:#b6dfe1 ;
+    width: 400px;
+    display: flex;
+    margin-left: 15px;
+    border-radius: 10px;
+    overflow-y: hidden;
+
+}
+.search-logo{
+   padding: 10px;
+}
+.input {
+    width: 300px;
+    border-radius: 2px ;
+    background-color:#b6dfe1 ;
+    margin: 2px 10px;
+    border: 0;
+
+}
+.loginBox {
+    margin: 10px;
+    color: #000000;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.loginButton{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(33, 33, 213);
+}
+.cartBox {
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.becomeSellerBox {
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.more{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main{
+    width: 100%;
+    background-color: #e4e8e8;
+
+}
+.menu{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color:white;
+    margin-top:57px;
+}
+.smallCard {
+    width: 94px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px 20px;
+    overflow-y: hidden;
+}
+.card {
+    height: 64px;
+    width: 64px;
+}
+
+.smallCard p {
+    text-align: center;
+}
+.slideSection {
+    background-size: cover;
+    margin: auto;
+    width: 98%;
+    height: 200px;
+    overflow-y: hidden;
+}
+.first{
+    background-color: white;
+    width: 98%;
+    margin: auto;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.first h3{
+    margin-left: 20px;
+}
+.itemSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.item {
+    width: 232px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.itemImg {
+    height: 150px;
+}
+
+.itemDescription {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buyNowText {
+    padding-top: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+.itemhead{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.addpos1{
+    /* height: 200px; */
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+}
+.addpos2{
+    /* height: 200px; */
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.footerSection {
+    width: 100%;
+    /* height: 300px; */
+    background-color: #172337;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footerLeft {
+    display: flex;
+    width: 100%;
+    margin-left: 65px;
+    justify-content: space-evenly;
+}
+
+.footerInfo {
+    width: 252px;
+    height: 300px;
+    padding-top: 40px;
+    overflow-y: hidden;
+}
+.footerInfoHeading {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+.footerContent {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+}
+.footerRight {
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    
+}
+.footerExtras {
+    margin-top: 0.35px;
+    background-color: #172337;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1719px;
+    height: 76px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 25px;
+    padding-right: 10px;
+    overflow-y: hidden;
+}
+@media screen and (max-width:425px){
+
+    nav
+    {
+        flex-wrap: wrap;
+    }
+    .logoSection{
+        margin-left: 50px;
+    }
+    .cartBox{
+       margin-top: 0; 
+    }
+    .becomeSellerBox{
+        margin-top: 0;
+    }
+    .more{
+        margin-top: 0;
+    }
+    .search{
+        width: 8%;
+        height: 25px;
+        margin-top: 10px;
+        background-color: white;
+        overflow-y: hidden;
+    }
+    .search-logo{
+        padding: 0;
+    }
+    .input{
+        display: none;
+    }
+    .loginButton{
+        width: 150%;
+        text-decoration: underline;
+        background-color: white;
+        border: 0px;
+        margin-top: 0;
+    }
+    .itemImg{
+        width: 100%;
+        height: 180px;
+    }
+    .itemDescription{
+        font-size: 17px;
+    }
+
+
+
+
+}
